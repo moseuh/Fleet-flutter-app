@@ -8,9 +8,8 @@ void main() {
 }
 
 class LoginUiApp extends StatelessWidget {
-
   Color _primaryColor = HexColor('#DC54FE');
-  Color _accentColor = HexColor('#8A02AE');
+  Color _accentColor = HexColor('#0000FF');
 
   // Design color
   // Color _primaryColor= HexColor('#FFC867');
@@ -35,9 +34,7 @@ class LoginUiApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey.shade100,
         primarySwatch: Colors.grey,
       ),
-      home: SplashScreen(title: 'Flutter Login UI'),
+      home: SplashScreen(title: 'Fleet Driver App'),
     );
   }
 }
-
-
